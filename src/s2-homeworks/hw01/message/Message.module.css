@@ -1,31 +1,85 @@
-.message {
+/*.message {*/
 
-}
+/*}*/
 
-.imageAndText {
+/*.imageAndText {*/
 
-}
+/*}*/
 
-.imageAndText img {
+/*.imageAndText img {*/
+/*    position: absolute;*/
+/*    width: 48px;*/
+/*    height: 48px;*/
+/*    left: 1162px;*/
+/*    top: 180px;*/
 
-}
 
-.text {
+/*}*/
 
-}
+/*.text {*/
+/*    position: absolute;*/
+/*    width: 527px;*/
+/*    height: 60px;*/
+/*    left: 635px;*/
+/*    top: 168px;*/
 
-.text:after {
+/*    background: #0066CC;*/
+/*    box-shadow: 0 5px 20px rgba(29, 33, 38, 0.03), 0 1px 2px rgba(29, 33, 38, 0.1);*/
+/*}*/
 
-}
+/*.text:after {*/
 
-.name {
+/*}*/
 
-}
+/*.name {*/
+/*    position: absolute;*/
+/*    width: 40px;*/
+/*    height: 22px;*/
+/*    left: 1097px;*/
+/*    top: 175px;*/
 
-.messageText {
+/*    font-family: 'Montserrat', serif;*/
+/*    font-style: normal;*/
+/*    font-weight: 600;*/
+/*    font-size: 18px;*/
+/*    line-height: 22px;*/
+/*    !* identical to box height *!*/
 
-}
 
-.time {
+/*    color: #bb1c1c;*/
 
-}
+/*}*/
+
+/*.messageText {*/
+/*    position: absolute;*/
+/*    width: 489px;*/
+/*    height: 20px;*/
+/*    left: 648px;*/
+/*    top: 200px;*/
+
+/*    font-family: 'Montserrat', serif;*/
+/*    font-style: normal;*/
+/*    font-weight: 400;*/
+/*    font-size: 16px;*/
+/*    line-height: 20px;*/
+/*    !* identical to box height *!*/
+
+
+/*    color: #b91d1d;*/
+/*}*/
+
+/*.time {*/
+/*    position: absolute;*/
+/*    width: 26px;*/
+/*    height: 12px;*/
+/*    left: 1173px;*/
+/*    top: 233px;*/
+
+/*    font-family: 'Montserrat', serif;*/
+/*    font-style: normal;*/
+/*    font-weight: 600;*/
+/*    font-size: 10px;*/
+/*    line-height: 12px;*/
+
+/*    color: #000000;*/
+/*}*/

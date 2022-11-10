@@ -1,31 +1,85 @@
-.friendMessage {
+/*.friendMessage {*/
 
-}
+/*}*/
 
-.friendImageAndText {
+/*.friendImageAndText {*/
 
-}
+/*}*/
 
-.friendImageAndText img {
+/*.friendImageAndText img {*/
+/*    position: absolute;*/
+/*    width: 48px;*/
+/*    height: 48px;*/
+/*    left: 70px;*/
+/*    top: 287px;*/
 
-}
 
-.friendText {
+/*}*/
 
-}
+/*.friendText {*/
 
-.friendText:after {
+/*    position: absolute;*/
+/*    width: 414px;*/
+/*    height: 60px;*/
+/*    left: 118px;*/
+/*    top: 275px;*/
 
-}
+/*    background: #F5F7FB;*/
+/*    box-shadow: 0px 5px 20px rgba(29, 33, 38, 0.03), 0px 1px 2px rgba(29, 33, 38, 0.1);*/
+/*}*/
 
-.friendName {
+/*.friendText:after {*/
 
-}
+/*}*/
 
-.friendMessageText {
+/*.friendName {*/
+/*    position: absolute;*/
+/*    width: 35px;*/
+/*    height: 20px;*/
+/*    left: 145px;*/
+/*    top: 283px;*/
 
-}
+/*    font-family: 'Montserrat', serif;*/
+/*    font-style: normal;*/
+/*    font-weight: 600;*/
+/*    font-size: 16px;*/
+/*    line-height: 20px;*/
+/*    !* identical to box height *!*/
 
-.friendTime {
 
-}
+/*    color: #000000;*/
+/*}*/
+
+/*.friendMessageText {*/
+/*    position: absolute;*/
+/*    width: 374px;*/
+/*    height: 20px;*/
+/*    left: 145px;*/
+/*    top: 307px;*/
+
+/*    font-family: 'Montserrat', serif;*/
+/*    font-style: normal;*/
+/*    font-weight: 400;*/
+/*    font-size: 16px;*/
+/*    line-height: 20px;*/
+/*    !* identical to box height *!*/
+
+
+/*    color: #000000;*/
+/*}*/
+
+/*.friendTime {*/
+/*    position: absolute;*/
+/*    width: 29px;*/
+/*    height: 12px;*/
+/*    left: 80px;*/
+/*    top: 340px;*/
+
+/*    font-family: 'Montserrat', serif;*/
+/*    font-style: normal;*/
+/*    font-weight: 600;*/
+/*    font-size: 10px;*/
+/*    line-height: 12px;*/
+
+/*    color: #000000;*/
+/*}*/
