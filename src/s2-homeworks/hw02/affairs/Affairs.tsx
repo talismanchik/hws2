@@ -1,26 +1,30 @@
-import React from 'react'
+import React, {Dispatch, SetStateAction} from 'react'
 import Affair from './affair/Affair'
 import {AffairType, FilterType} from '../HW2'
 import s from './Affairs.module.css'
 
 type AffairsPropsType = {
-    data: any // need to fix any
-    setFilter: any
-    deleteAffairCallback: any
+    data: AffairType[] // need to fix any
+    setFilter: Dispatch<SetStateAction<FilterType>>
+    deleteAffairCallback: (_id: number)=> void
     filter: FilterType
 }
 
 function Affairs(props: AffairsPropsType) {
-    const setAll = () => {
+    const setAll = (filt: FilterType) => {
+       props.setFilter(filt)
         // need to fix
     }
-    const setHigh = () => {
+    const setHigh = (filt: FilterType) => {
+        props.setFilter(filt)
         // need to fix
     }
-    const setMiddle = () => {
+    const setMiddle = (filt: FilterType) => {
+        props.setFilter(filt)
         // need to fix
     }
-    const setLow = () => {
+    const setLow = (filt: FilterType) => {
+        props.setFilter(filt)
         // need to fix
     }
 
@@ -42,28 +46,28 @@ function Affairs(props: AffairsPropsType) {
             <div className={s.buttonContainer}>
                 <button
                     id={'hw2-button-all'}
-                    onClick={setAll}
+                    onClick={()=>setAll('all')}
                     className={cnAll}
                 >
                     All
                 </button>
                 <button
                     id={'hw2-button-high'}
-                    onClick={setHigh}
+                    onClick={()=>setHigh('high')}
                     className={cnHigh}
                 >
                     High
                 </button>
                 <button
                     id={'hw2-button-middle'}
-                    onClick={setMiddle}
+                    onClick={()=>setMiddle('middle')}
                     className={cnMiddle}
                 >
                     Middle
                 </button>
                 <button
                     id={'hw2-button-low'}
-                    onClick={setLow}
+                    onClick={()=>setLow('low')}
                     className={cnLow}
                 >
                     Low

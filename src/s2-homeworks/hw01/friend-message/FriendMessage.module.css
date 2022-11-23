@@ -1,85 +1,61 @@
-/*.friendMessage {*/
+.friendMessage {
+   /*border: 2px solid black;*/
+   display: flex;
+   flex-direction: column;
+}
 
-/*}*/
+.friendImageAndText {
+   /*border: 2px solid #ee0707;*/
+   display: flex;
+   align-items: flex-end;
+   }
 
-/*.friendImageAndText {*/
+.friendImageAndText img {
+   /*border: 2px solid #d39614;*/
+   height: 48px;
 
-/*}*/
+}
 
-/*.friendImageAndText img {*/
-/*    position: absolute;*/
-/*    width: 48px;*/
-/*    height: 48px;*/
-/*    left: 70px;*/
-/*    top: 287px;*/
+.friendText {
+   /*border: 2px solid #46d501;*/
+   background-color: #0066CC;
+   border-radius: 10px;
+   padding: 5px;
+   color: white;
+   margin-left: 10px;
+   }
 
+.friendText:after {
 
-/*}*/
+}
 
-/*.friendText {*/
+.friendName {
+   /*border: 2px solid #0ca2c2;*/
+   margin: 5px;
+   font-family: 'Montserrat', sans-serif;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 22px;
+}
 
-/*    position: absolute;*/
-/*    width: 414px;*/
-/*    height: 60px;*/
-/*    left: 118px;*/
-/*    top: 275px;*/
+.friendMessageText {
+   /*border: 2px solid #0d24c4;*/
+   font-family: 'Montserrat', sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 20px;
+   margin: 5px;
+}
 
-/*    background: #F5F7FB;*/
-/*    box-shadow: 0px 5px 20px rgba(29, 33, 38, 0.03), 0px 1px 2px rgba(29, 33, 38, 0.1);*/
-/*}*/
-
-/*.friendText:after {*/
-
-/*}*/
-
-/*.friendName {*/
-/*    position: absolute;*/
-/*    width: 35px;*/
-/*    height: 20px;*/
-/*    left: 145px;*/
-/*    top: 283px;*/
-
-/*    font-family: 'Montserrat', serif;*/
-/*    font-style: normal;*/
-/*    font-weight: 600;*/
-/*    font-size: 16px;*/
-/*    line-height: 20px;*/
-/*    !* identical to box height *!*/
-
-
-/*    color: #000000;*/
-/*}*/
-
-/*.friendMessageText {*/
-/*    position: absolute;*/
-/*    width: 374px;*/
-/*    height: 20px;*/
-/*    left: 145px;*/
-/*    top: 307px;*/
-
-/*    font-family: 'Montserrat', serif;*/
-/*    font-style: normal;*/
-/*    font-weight: 400;*/
-/*    font-size: 16px;*/
-/*    line-height: 20px;*/
-/*    !* identical to box height *!*/
-
-
-/*    color: #000000;*/
-/*}*/
-
-/*.friendTime {*/
-/*    position: absolute;*/
-/*    width: 29px;*/
-/*    height: 12px;*/
-/*    left: 80px;*/
-/*    top: 340px;*/
-
-/*    font-family: 'Montserrat', serif;*/
-/*    font-style: normal;*/
-/*    font-weight: 600;*/
-/*    font-size: 10px;*/
-/*    line-height: 12px;*/
-
-/*    color: #000000;*/
-/*}*/
+.friendTime {
+   /*border: 2px solid #ae05d3;*/
+   font-family: 'Montserrat', sans-serif;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 10px;
+   line-height: 12px;
+   color: #000000;
+   padding-left: 11px;
+}
