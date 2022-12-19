@@ -1,17 +1,18 @@
 import React from 'react'
-import { Routes, Route } from 'react-router-dom'
+import {Routes, Route, Navigate} from 'react-router-dom'
 import Error404 from './pages/Error404'
 import PreJunior from './pages/PreJunior'
 import Junior from './pages/Junior'
 import JuniorPlus from './pages/JuniorPlus'
 
 export const PATH = {
-    PRE_JUNIOR: '/pre-junior',
+    PRE_JUNIOR: '/preJunior',
     JUNIOR: '/junior',
-    JUNIOR_PLUS: '/junior-plus',
+    JUNIOR_PLUS: '/juniorPlus',
 }
 
 function Pages() {
+    // @ts-ignore
     return (
         <div>
             {/*Routes выбирает первый подходящий роут*/}
@@ -22,7 +23,7 @@ function Pages() {
 
 
 
-                <Route path={'/'} element={<PreJunior/>}/>
+                <Route path={'/'} element={<Navigate to={PATH.PRE_JUNIOR}/>}/>
 
 
                 {/*роуты для /pre-junior, /junior, /junior-plus*/}
