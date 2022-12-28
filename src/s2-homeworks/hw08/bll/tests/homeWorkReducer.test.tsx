@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { homeWorkReducer } from '../homeWorkReducer'
 import { UserType } from '../../HW8'
 
@@ -20,7 +20,6 @@ test('sort name up', () => {
         type: 'sort',
         payload: 'up',
     })
-
     expect(newState[0]._id).toBe(1)
 })
 test('sort name down', () => {
